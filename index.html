@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="assets/CSS/Style.css">
+    <title>JS Password validation</title>
+</head>
+<body>
+    <div class="container">
+        <div class="d-flex h-100vh justify-center align-center">
+            <div class="card form-shadow">
+                <div class="card-header">
+                    <h1 class="card-title">Js Password Validation</h1>
+                    <p class="notify-text"></p>
+                </div>
+                <div class="card-body">
+                    <form action="#">
+                        <div class="text-center">
+                            <div class="form-group">
+                                <input type="password" name="pass-1" id="pass-1" class="form-control" placeholder="Enter your password" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" name="pass-2" id="pass-2" class="form-control" placeholder="Conform your password" disabled required>
+                                <button type="button" class="show-btn" id="btn-show">SHOW</button>
+                            </div>
+                            <button type="button" class="btn" id="check-button" disabled><b>Check your password</b></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/JS/main.js"></script>
+</body>
+</html>

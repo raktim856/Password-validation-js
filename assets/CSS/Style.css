@@ -1,0 +1,127 @@
+/***********< Bais Css start >***********/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.container{
+    margin: 0px 80px;
+}
+.h-100vh{
+    height: 100vh;
+}
+.d-flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.text-center{
+    text-align: center;
+}
+/***********< Bais Css end >***********/
+/**********< Custom Css start >**********/
+.form-shadow{
+    box-shadow: 0px 0px 15px rgb(130, 123, 123);
+}
+.card{
+    padding: 25px;
+    background-color: rgb(227, 247, 255);
+}
+.card-header{
+    padding: 0px 0px 10px 0px;
+    text-align: center;
+}
+.notify-text{
+    margin: 5px 10px;
+    padding: 2px 0px;
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.form-group{
+    padding: 8px 0px;
+    position: relative;
+}
+.form-control{
+    width: 85%;
+    height: 35px;
+    border: 2px solid #c7c7c7;
+    border-radius: 3px;
+    outline: none;
+    padding-left: 10px;
+}
+.form-control:disabled{
+    border: 2px solid #999999;
+    background-color: #e8e8e8;
+    color: #666666;
+}
+.show-btn{
+    position: absolute;
+    border: 0px solid transparent;
+    background-color: transparent;
+    top: 18px;
+    right: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    display: none;
+    cursor: pointer;
+}
+.btn{
+    width: 80%;
+    height: 35px;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 112, 0);
+    cursor: pointer;
+    margin-top: 15px;
+}
+.btn:disabled{
+    border: 1px solid #999999;
+    background-color: #e1e0e0;
+    color: #666666;
+    cursor: not-allowed;
+}
+
+/***********< Custom Css end >***********/
+/**********< Custom Css for Js start >**********/
+.nte{
+    margin: 5px 10px;
+    padding: 5px 0px;
+    border: 1px solid red;
+    background-color: rgba(255, 125, 125, 0.553);
+}
+.nts{
+    margin: 5px 10px;
+    padding: 5px 0px;
+    border: 1px solid green;
+    background-color: rgba(146, 255, 146, 0.441);
+}
+.form_bce{
+    width: 85%;
+    height: 35px;
+    border: 2px solid rgba(241, 127, 127, 0.457);
+    background-color: rgba(254, 219, 219, 0.427);
+    border-radius: 3px;
+    outline: none;
+    padding-left: 10px;
+}
+.form_bcs{
+    width: 85%;
+    height: 35px;
+    border: 2px solid rgba(129, 234, 129, 0.416);
+    background-color: rgba(223, 252, 223, 0.381);
+    border-radius: 3px;
+    outline: none;
+    padding-left: 10px;
+}
+/***********< Custom Css for Js end >***********/
